@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		EF55FAFF1FB02E9D0097CBAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55FAFE1FB02E9D0097CBAB /* AppDelegate.swift */; };
 		EF55FB011FB02E9D0097CBAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF55FB001FB02E9D0097CBAB /* ViewController.swift */; };
-		EF55FB041FB02E9D0097CBAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF55FB021FB02E9D0097CBAB /* Main.storyboard */; };
 		EF55FB061FB02E9D0097CBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF55FB051FB02E9D0097CBAB /* Assets.xcassets */; };
 		EF55FB091FB02E9D0097CBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF55FB071FB02E9D0097CBAB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		EF55FAFB1FB02E9D0097CBAB /* RealmTasksTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmTasksTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF55FAFE1FB02E9D0097CBAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF55FB001FB02E9D0097CBAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF55FB031FB02E9D0097CBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF55FB051FB02E9D0097CBAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF55FB081FB02E9D0097CBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF55FB0A1FB02E9D0097CBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				EF55FAFE1FB02E9D0097CBAB /* AppDelegate.swift */,
 				EF55FB001FB02E9D0097CBAB /* ViewController.swift */,
-				EF55FB021FB02E9D0097CBAB /* Main.storyboard */,
 				EF55FB051FB02E9D0097CBAB /* Assets.xcassets */,
 				EF55FB071FB02E9D0097CBAB /* LaunchScreen.storyboard */,
 				EF55FB0A1FB02E9D0097CBAB /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				EF55FB091FB02E9D0097CBAB /* LaunchScreen.storyboard in Resources */,
 				EF55FB061FB02E9D0097CBAB /* Assets.xcassets in Resources */,
-				EF55FB041FB02E9D0097CBAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF55FB021FB02E9D0097CBAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF55FB031FB02E9D0097CBAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF55FB071FB02E9D0097CBAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
